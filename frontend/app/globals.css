@@ -1,0 +1,16 @@
+:root { font-family: Inter, Arial, sans-serif; color-scheme: light; }
+body { margin: 0; background: #0b1220; color: #e6edf9; }
+a { color: #7fc3ff; text-decoration: none; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background: #111b2e; border: 1px solid #21314f; border-radius: 12px; padding: 16px; }
+.grid { display: grid; gap: 16px; }
+.grid-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.table { width: 100%; border-collapse: collapse; }
+.table th,.table td { text-align: left; padding: 8px; border-bottom: 1px solid #1f2b43; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.badge.Low { background: #153b24; }
+.badge.Medium { background: #3b3515; }
+.badge.High { background: #4b2916; }
+.badge.Severe { background: #4b1515; }
+.map { display: grid; grid-template-columns: repeat(5,1fr); gap: 8px; }
+.map-cell { border-radius: 10px; padding: 10px; min-height: 80px; font-size: 13px; }
